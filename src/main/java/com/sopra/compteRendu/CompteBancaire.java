@@ -1,15 +1,15 @@
 package com.sopra.compteRendu;
 
-import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 public class CompteBancaire {
 	private int numCompte;
 	private String nomProprietaire;
 	private double solde;
-	private LocalDate dateCreation;
+	private LocalDateTime dateCreation;
 	private String typeCompte;
 	
-	public CompteBancaire(int numCompte, String nomProprietaire, double solde, LocalDate dateCreation,
+	public CompteBancaire(int numCompte, String nomProprietaire, double solde, LocalDateTime dateCreation,
 			String typeCompte) {
 		super();
 		this.numCompte = numCompte;
@@ -41,10 +41,10 @@ public class CompteBancaire {
 	public void setSolde(double solde) {
 		this.solde = solde;
 	}
-	public LocalDate getDateCreation() {
+	public LocalDateTime getDateCreation() {
 		return dateCreation;
 	}
-	public void setDateCreation(LocalDate dateCreation) {
+	public void setDateCreation(LocalDateTime dateCreation) {
 		this.dateCreation = dateCreation;
 	}
 	public String getTypeCompte() {

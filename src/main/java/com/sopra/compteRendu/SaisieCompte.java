@@ -3,7 +3,8 @@ package com.sopra.compteRendu;
 
 import java.io.IOException;
 import java.io.FileWriter;
-import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
 
 import org.jdom2.Document;
@@ -32,8 +33,11 @@ public class SaisieCompte {
 		    System.out.println("Veuillez entrer le solde :");
 		    double solde = scanner.nextDouble();
 		    scanner.nextLine(); 
-		    System.out.println("Veuillez entrer la date de création (AAAA-MM-JJ) :");
-		    LocalDate dateCreation = LocalDate.parse(scanner.nextLine());
+
+		    LocalDateTime dateCreation = LocalDateTime.now();
+//		    DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+//            String dateCreationFormatted = dateCreation.format(formatter);
+
 		    String typeCompte;
 		    do {
 		    	System.out.println("Veuillez entrer le type de compte (epargne ou courant) :");
