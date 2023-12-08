@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ComptesBancaires>
-  <CompteBancaire>
-    <numCompte>1</numCompte>
-    <nomProprietaire>Michou</nomProprietaire>
-    <solde>154.0</solde>
-    <dateCreation>2023-12-08T11:54:54.987106500</dateCreation>
-    <typeCompte>epargne</typeCompte>
+  <CompteBancaire banque="Credit Agricole">
+    <numCompte>5</numCompte>
+    <nomProprietaire>Rachid</nomProprietaire>
+    <solde>45.0</solde>
+    <dateCreation>2023-12-08T16:59:26.517159900</dateCreation>
+    <typeCompte>courant</typeCompte>
+  </CompteBancaire>
+  <CompteBancaire banque="Credit Agricole">
+    <numCompte>12345</numCompte>
+    <nomProprietaire>Rapha</nomProprietaire>
+    <solde>1500.0</solde>
+    <dateCreation>2023-12-08T17:00:21.477790300</dateCreation>
+    <typeCompte>courant</typeCompte>
   </CompteBancaire>
 </ComptesBancaires>
