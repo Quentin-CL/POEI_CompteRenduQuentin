@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ComptesBancaires>
+  <CompteBancaire>
+    <numCompte>1</numCompte>
+    <nomProprietaire>Michel</nomProprietaire>
+    <solde>15.5</solde>
+    <dateCreation>1988-12-12</dateCreation>
+    <typeCompte>epargne</typeCompte>
+  </CompteBancaire>
+  <CompteBancaire>
+    <numCompte>2</numCompte>
+    <nomProprietaire>Rachid</nomProprietaire>
+    <solde>19.9</solde>
+    <dateCreation>1985-09-30</dateCreation>
+    <typeCompte>courant</typeCompte>
+  </CompteBancaire>
+</ComptesBancaires>

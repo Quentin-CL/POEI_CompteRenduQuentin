@@ -6,4 +6,11 @@
   <name>compteRendu</name>
   <description>compte-rendu poei
 Compte-rendu POEI</description>
+	<dependencies>
+		<dependency>
+			<groupId>org.jdom</groupId>
+			<artifactId>jdom2</artifactId>
+			<version>2.0.6</version>
+		</dependency>
+	</dependencies>
 </project>
